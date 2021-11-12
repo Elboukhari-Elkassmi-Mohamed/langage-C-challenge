@@ -3,14 +3,16 @@
 
 int main(){
 	
-	float M,m,km;
+	float M,metre;
 	
 	printf("donner la distance en metre:");
-	scanf (	"%f", &m);
+	scanf (	"%f", &metre);
 	
-    M=1000*1.609;
+    M = metre/1609;
     
-    printf("distance en mile est : %.2f",M);
+    printf("distance en mile est : %f",M);
+    
+    return(0);
     
 	
 }
