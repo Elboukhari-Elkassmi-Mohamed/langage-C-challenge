@@ -11,8 +11,8 @@ int main(){
 	
 	if(a>b)
 		
-	printf ("le nbr %d est le max :",a);
+	printf ("le nbr  %d est le max ",a);
 	
-	else printf("le	nbr %d le max :",b);
+	else printf("le	nbr %d le max ",b);
 	
 }
